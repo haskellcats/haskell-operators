@@ -13,7 +13,7 @@ gratuitous listing of operators similar to every other language manual.
 | `== /= `    | `Eq a => a -> a -> Bool`                     | Value equality. |
 | `< > <= >=` | `Ord a => a -> a -> Bool`                    ||
 | `+, -, * `  | `Num a => a -> a -> a`                       ||
-| unary -     | `Num a => a -> a`                            | Special case unary operator for `negate`.<br>Doesn't work in a section, use (subtract x) instead of (- x). |
+| unary -     | `Num a => a -> a`                            | Special case unary operator for `negate`.<br>Doesn't work in a section,<br>use (subtract x) instead of (- x). |
 | `/`         | `Fractional a => a -> a -> a`                | Use `div` `mod` or `divMod` for integer division.<br>See also `quot` `rem` and `quotRem`. |
 | ` ** `      | `Floating a => a -> a -> a`                  ||
 | `^ `        | `(Num a, Integral b) => a -> b -> a`         ||
