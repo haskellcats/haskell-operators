@@ -1,4 +1,4 @@
-= "All Haskell Operators"
+# "All Haskell Operators"
 
 |Operator     |Type                                          |Notes|
 |:-----------:|----------------------------------------------|-----|
