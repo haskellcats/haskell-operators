@@ -1,15 +1,5 @@
 # "All Haskell Operators"
 
-<style>
-table:nth-of-type(1) {
-    display:table;
-    width:100%;
-}
-table:nth-of-type(1) th:nth-of-type(2) {
-    min-width: 400px;
-}
-</style>
-
 Of course, you are free to define new operators using any symbol characters.
 This table contains all the operators defined in the Prelude at the time of
 this writing. There are a few operators not listed which are commonly imported
