@@ -1,5 +1,12 @@
 # "All Haskell Operators"
 
+Of course, you are free to define new operators using any symbol characters.
+This table contains all the operators defined in the Prelude at the time of
+this writing. There are a few operators not listed which are commonly imported
+(such as `<>` from `Data.Monoid`) and some libraries define a large number of
+their own (lens). This table exists to introduce "Haskell syntax" with a
+gratuitous listing of operators similar to every other language manual.
+
 |Operator     |Type                                          |Notes|
 |:-----------:|----------------------------------------------|-----|
 | `&& ||`     | `Bool -> Bool -> Bool`                       |     |
