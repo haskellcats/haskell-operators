@@ -9,7 +9,7 @@ gratuitous listing of operators similar to every other language manual.
 
 |Operator     |Type                                          |Notes|
 |:-----------:|----------------------------------------------|-----|
-| `&& &#124;&#124;` | `Bool -> Bool -> Bool`                 |     |
+| `&&` &#124;&#124; | `Bool -> Bool -> Bool`                 |     |
 | `== /= `    | `Eq a => a -> a -> Bool`                     | Value equality. |
 | `< > <= >=` | `Ord a => a -> a -> Bool`                    ||
 | `+ - * `    | `Num a => a -> a -> a`                       ||
