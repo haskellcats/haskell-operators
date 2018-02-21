@@ -45,12 +45,16 @@ False
 
 ## **
 
+The usual pow operation for fractional numbers. Both 2's below are Doubles.
+
 ```
 > sqrt 2 ** 2
 2.0000000000000004
 ```
 
 ## ^
+
+Power for integral numbers. In this example both 2 and 64 are Integers.
 
 ```
 > 2^64
@@ -198,7 +202,8 @@ forM_ [0..n-1] (\i -> do
 
 `$!` is $ which effectively evaluates the argument before applying a function.
 It is equivalent to using seq or bang patterns as shown below. Usually when
-you need to control evaluation you want to use seq or bang patterns instead.
+you need to control evaluation you want to use bang patterns, strict record
+fields, or seq instead.
 
 ```
 > const 'A' undefined
