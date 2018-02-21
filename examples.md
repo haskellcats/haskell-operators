@@ -162,6 +162,9 @@ Nothing
 ```
 > deleteFile =<< readFile =<< getLine
 <IO ()>
+
+> getLine >>= readFile >>= deleteFile --same thing
+<IO ()>
 ```
 
 ## .
