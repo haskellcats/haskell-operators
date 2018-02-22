@@ -105,16 +105,19 @@ type class Applicative.
 > (,) <$> Just 'A' <*> Just 99 -- the idiom
 Just ('A',99)
 
+> pure (,) <*> Just 'A' <*> Just 99 -- same thing
+Just ('A',99)
+
 > liftA2 (,) (Just 'A') (Just 99) -- same thing
 Just ('A',99)
 
 > Just chr <*> Just 3
 Just 'A'
 
-> Just (<) <*> Just 'a' <*> Just 'z'
-Just True
+> (+) <$> Just 2 <*> Just 2
+Just 4
 
-> Just (<) <*> Nothing <*> Just 'z'
+> (+) <$> Nothing <*> Just 2
 Nothing
 ```
 
