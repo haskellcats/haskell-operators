@@ -7,11 +7,11 @@ gratuitous listing of operators similar to every other language manual.
 
 |Operator     |Type                                          |Notes|
 |:-----------:|----------------------------------------------|-----|
-| `&&` &#124;&#124; | `Bool -> Bool -> Bool`                 | AND, OR |
+| `&&` `\|\|` | `Bool -> Bool -> Bool`                       | AND, OR |
 | `== /= `    | `Eq a => a -> a -> Bool`                     | Value equality. |
 | `< > <= >=` | `Ord a => a -> a -> Bool`                    ||
 | `+ - * `    | `Num a => a -> a -> a`                       ||
-| unary -     | `Num a => a -> a`                            | Same as `negate` |
+| unary `-`   | `Num a => a -> a`                            | Same as `negate` |
 | `/`         | `Fractional a => a -> a -> a`                | For integer division use `div` |
 | ` ** `      | `Floating a => a -> a -> a`                  | Floating power operation, anti-log |
 | `^ `        | `(Num a, Integral b) => a -> b -> a`         | Integral power of a Num |
